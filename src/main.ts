@@ -1,112 +1,234 @@
-import Phaser from 'phaser'
 import './styles.css'
-import { BUILDINGS, type ToolMode } from './game/config'
-import { events, type ResourceState } from './game/events'
-import { ForestScene } from './game/ForestScene'
 
-const game = new Phaser.Game({
-  type: Phaser.AUTO,
-  parent: 'game',
-  width: 1440,
-  height: 900,
-  backgroundColor: '#173a31',
-  antialias: true,
-  render: { pixelArt: false, roundPixels: true },
-  scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH },
-  scene: [ForestScene],
-})
+interface AssetItem {
+  id: string
+  group: string
+  priority: string
+  path: string
+  format: string
+  size: [number, number]
+  status: string
+}
 
-const resourcesElement = document.querySelector<HTMLDivElement>('#resources')!
-const buildingList = document.querySelector<HTMLDivElement>('#building-list')!
-const modeLabel = document.querySelector<HTMLElement>('#mode-label')!
-const toast = document.querySelector<HTMLDivElement>('#toast')!
-const taskTitle = document.querySelector<HTMLElement>('#task-title')!
-const taskCopy = document.querySelector<HTMLElement>('#task-copy')!
-const taskProgress = document.querySelector<HTMLElement>('#task-progress')!
-let toastTimer = 0
-let selectedId = 'hut'
+interface AssetManifest {
+  version: string
+  view: string
+  groundAxis: number
+  tileSize: [number, number]
+  total: number
+  counts: {
+    terrain: number
+    objects: number
+    buildings: number
+  }
+  assets: AssetItem[]
+}
 
-function renderResources(value: ResourceState) {
-  const items = [
-    ['人口', value.population, '👤'],
-    ['木材', value.wood, '▥'],
-    ['石料', value.stone, '◆'],
-    ['食物', value.food, '●'],
+type Category = 'all' | 'terrain' | 'objects' | 'buildings'
+
+const categoryLabels: Record<Category, string> = {
+  all: '全部',
+  terrain: '地形瓦片',
+  objects: '场景物件',
+  buildings: '建筑',
+}
+
+const categoryOrder: Category[] = ['all', 'terrain', 'objects', 'buildings']
+
+function requireElement<T extends Element>(selector: string): T {
+  const element = document.querySelector<T>(selector)
+  if (!element) throw new Error('Missing element: ' + selector)
+  return element
+}
+
+const gallery = requireElement<HTMLDivElement>('#gallery')
+const summary = requireElement<HTMLDivElement>('#summary')
+const filters = requireElement<HTMLElement>('#category-filter')
+const searchInput = requireElement<HTMLInputElement>('#search-input')
+const clearSearch = requireElement<HTMLButtonElement>('#clear-search')
+const resultCount = requireElement<HTMLDivElement>('#result-count')
+const loadingState = requireElement<HTMLDivElement>('#loading-state')
+const emptyState = requireElement<HTMLDivElement>('#empty-state')
+
+let manifest: AssetManifest | null = null
+let activeCategory: Category = 'all'
+let query = ''
+
+function categoryOf(item: AssetItem): Category {
+  if (item.group.startsWith('Tiles/')) return 'terrain'
+  if (item.group.startsWith('Objects/')) return 'objects'
+  if (item.group.startsWith('Buildings/')) return 'buildings'
+  return 'objects'
+}
+
+function assetUrl(path: string): string {
+  return import.meta.env.BASE_URL + path.replace(/^\/+/, '')
+}
+
+function countFor(category: Category): number {
+  if (!manifest) return 0
+  if (category === 'all') return manifest.assets.length
+  return manifest.assets.filter((item) => categoryOf(item) === category).length
+}
+
+function renderSummary(): void {
+  if (!manifest) return
+  const values: Array<[number, string]> = [
+    [manifest.assets.length, '全部素材'],
+    [manifest.counts.terrain, '地形瓦片'],
+    [manifest.counts.objects, '场景物件'],
+    [manifest.counts.buildings, '建筑'],
   ]
-  resourcesElement.innerHTML = items.map(([label, count, icon]) => `<div class="resource"><span>${icon} ${label}</span><b>${count}</b></div>`).join('')
+  summary.replaceChildren()
+  values.forEach(([count, label]) => {
+    const item = document.createElement('div')
+    const value = document.createElement('b')
+    const caption = document.createElement('span')
+    value.textContent = String(count)
+    caption.textContent = label
+    item.append(value, caption)
+    summary.append(item)
+  })
 }
 
-function renderBuildings() {
-  buildingList.innerHTML = BUILDINGS.map((item) => `
-    <button class="building-card ${item.id === selectedId ? 'is-selected' : ''}" data-building="${item.id}" draggable="true" style="--accent:${item.colorCss}">
-      <span class="building-card__icon">${item.symbol}</span><strong>${item.name}</strong>
-      <small>木 ${item.cost.wood} · 石 ${item.cost.stone}</small>
-    </button>`).join('')
-  buildingList.querySelectorAll<HTMLButtonElement>('[data-building]').forEach((button) => {
-    const select = () => {
-      selectedId = button.dataset.building!
-      events.emit('select-building', selectedId)
-      document.querySelectorAll('.building-card').forEach((card) => card.classList.toggle('is-selected', card === button))
-      document.querySelectorAll('.tool-rail button').forEach((tool) => tool.classList.toggle('is-active', (tool as HTMLElement).dataset.mode === 'build'))
-      modeLabel.textContent = `已选择：${BUILDINGS.find((item) => item.id === selectedId)?.name}`
-    }
-    button.addEventListener('click', select)
-    button.addEventListener('dragstart', (event) => {
-      select()
-      event.dataTransfer?.setData('text/plain', selectedId)
+function renderFilters(): void {
+  filters.replaceChildren()
+  categoryOrder.forEach((category) => {
+    const button = document.createElement('button')
+    const label = document.createElement('span')
+    const count = document.createElement('b')
+    button.type = 'button'
+    button.className = category === activeCategory ? 'is-active' : ''
+    button.dataset.category = category
+    label.textContent = categoryLabels[category]
+    count.textContent = String(countFor(category))
+    button.append(label, count)
+    button.addEventListener('click', () => {
+      activeCategory = category
+      renderFilters()
+      renderGallery()
     })
+    filters.append(button)
   })
 }
 
-renderBuildings()
-renderResources({ wood: 520, stone: 260, food: 140, population: 0 })
+function createAssetCard(item: AssetItem): HTMLAnchorElement {
+  const link = document.createElement('a')
+  const preview = document.createElement('figure')
+  const image = document.createElement('img')
+  const info = document.createElement('div')
+  const title = document.createElement('strong')
+  const path = document.createElement('small')
+  const meta = document.createElement('div')
+  const size = document.createElement('span')
+  const priority = document.createElement('span')
 
-events.on('resources', renderResources)
-events.on('toast', (message: string) => {
-  window.clearTimeout(toastTimer)
-  toast.textContent = message
-  toast.classList.add('is-visible')
-  toastTimer = window.setTimeout(() => toast.classList.remove('is-visible'), 1900)
-})
-events.on('built', ({ count, id }: { count: number; id: string }) => {
-  taskProgress.style.width = `${Math.min(100, 12 + count * 18)}%`
-  if (id === 'hut') {
-    taskTitle.textContent = '清理外围树木'
-    taskCopy.textContent = '切换清理工具，点击树木回收木材。'
-  }
-  if (count >= 5) {
-    taskTitle.textContent = '聚落运转正常'
-    taskCopy.textContent = '继续规划道路、高地和功能建筑。'
-    taskProgress.style.width = '100%'
-  }
-})
+  link.className = 'asset-card asset-card--' + categoryOf(item)
+  link.href = assetUrl(item.path)
+  link.target = '_blank'
+  link.rel = 'noreferrer'
+  link.title = '打开原始 SVG：' + item.path
 
-document.querySelectorAll<HTMLButtonElement>('.tool-rail button').forEach((button) => {
-  button.addEventListener('click', () => {
-    const mode = button.dataset.mode as ToolMode
-    events.emit('set-mode', mode)
-    document.querySelectorAll('.tool-rail button').forEach((item) => item.classList.toggle('is-active', item === button))
-    document.querySelectorAll('.building-card').forEach((card) => card.classList.toggle('is-selected', false))
-    modeLabel.textContent = mode === 'clear' ? '点击树木或岩石进行清理' : mode === 'inspect' ? '点击格子查看地形信息' : '选择建筑后点击地图格'
+  preview.className = 'asset-card__preview'
+  image.src = assetUrl(item.path)
+  image.alt = item.id
+  image.loading = 'lazy'
+  image.decoding = 'async'
+  preview.append(image)
+
+  info.className = 'asset-card__info'
+  title.textContent = item.id
+  path.textContent = item.path.replace('/Art/Map/', '')
+  meta.className = 'asset-card__meta'
+  size.textContent = item.size[0] + ' × ' + item.size[1]
+  priority.textContent = item.priority
+  meta.append(size, priority)
+  info.append(title, path, meta)
+
+  link.append(preview, info)
+  return link
+}
+
+function renderGallery(): void {
+  if (!manifest) return
+
+  const normalizedQuery = query.trim().toLocaleLowerCase()
+  const visibleAssets = manifest.assets.filter((item) => {
+    const categoryMatches = activeCategory === 'all' || categoryOf(item) === activeCategory
+    const searchMatches = normalizedQuery.length === 0 ||
+      item.id.toLocaleLowerCase().includes(normalizedQuery) ||
+      item.group.toLocaleLowerCase().includes(normalizedQuery) ||
+      item.path.toLocaleLowerCase().includes(normalizedQuery)
+    return categoryMatches && searchMatches
   })
+
+  const grouped = new Map<string, AssetItem[]>()
+  visibleAssets.forEach((item) => {
+    const items = grouped.get(item.group) ?? []
+    items.push(item)
+    grouped.set(item.group, items)
+  })
+
+  gallery.replaceChildren()
+  grouped.forEach((items, groupName) => {
+    const section = document.createElement('section')
+    const heading = document.createElement('header')
+    const title = document.createElement('h2')
+    const count = document.createElement('span')
+    const grid = document.createElement('div')
+
+    section.className = 'asset-group'
+    title.textContent = groupName.replaceAll('/', ' / ')
+    count.textContent = items.length + ' 个'
+    grid.className = 'asset-grid'
+    items.forEach((item) => grid.append(createAssetCard(item)))
+    heading.append(title, count)
+    section.append(heading, grid)
+    gallery.append(section)
+  })
+
+  const total = manifest.assets.length
+  resultCount.textContent = '当前显示 ' + visibleAssets.length + ' / ' + total + ' 个素材 · ' + grouped.size + ' 组'
+  emptyState.hidden = visibleAssets.length !== 0
+}
+
+function showLoadError(error: unknown): void {
+  loadingState.classList.add('is-error')
+  loadingState.replaceChildren()
+  const title = document.createElement('strong')
+  const detail = document.createElement('span')
+  title.textContent = '素材清单加载失败'
+  detail.textContent = error instanceof Error ? error.message : '请刷新页面重试。'
+  loadingState.append(title, detail)
+  resultCount.textContent = '无法读取素材'
+}
+
+searchInput.addEventListener('input', () => {
+  query = searchInput.value
+  clearSearch.hidden = query.length === 0
+  renderGallery()
 })
 
-document.querySelector('#zoom-in')?.addEventListener('click', () => events.emit('zoom', 1))
-document.querySelector('#zoom-out')?.addEventListener('click', () => events.emit('zoom', -1))
-document.querySelector('#zoom-reset')?.addEventListener('click', () => {
-  const scene = game.scene.getScene('forest')
-  scene.cameras.main.setZoom(1).centerOn(720, 420)
+clearSearch.addEventListener('click', () => {
+  searchInput.value = ''
+  query = ''
+  clearSearch.hidden = true
+  searchInput.focus()
+  renderGallery()
 })
 
-const canvasHost = document.querySelector<HTMLDivElement>('#game')!
-canvasHost.addEventListener('dragover', (event) => event.preventDefault())
-canvasHost.addEventListener('drop', (event) => {
-  event.preventDefault()
-  const id = event.dataTransfer?.getData('text/plain')
-  if (id) events.emit('select-building', id)
-  events.emit('place-screen', event.clientX, event.clientY)
-})
+async function start(): Promise<void> {
+  try {
+    const response = await fetch(import.meta.env.BASE_URL + 'Art/Map/asset_manifest.json')
+    if (!response.ok) throw new Error('HTTP ' + response.status)
+    manifest = await response.json() as AssetManifest
+    renderSummary()
+    renderFilters()
+    renderGallery()
+    loadingState.remove()
+  } catch (error) {
+    showLoadError(error)
+  }
+}
 
-const dialog = document.querySelector<HTMLDialogElement>('#help-dialog')!
-document.querySelector('#help-btn')?.addEventListener('click', () => dialog.showModal())
-document.querySelector('#help-close')?.addEventListener('click', () => dialog.close())
+void start()
