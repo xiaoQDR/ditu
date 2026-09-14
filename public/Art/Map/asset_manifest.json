@@ -17,8 +17,8 @@
       "id": "tile_ground_grass_01",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -29,8 +29,8 @@
       "id": "tile_ground_grass_02",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -41,8 +41,8 @@
       "id": "tile_ground_grass_03",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -53,8 +53,8 @@
       "id": "tile_ground_grass_04",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -65,8 +65,8 @@
       "id": "tile_ground_grass_05",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_05.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_05.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -77,8 +77,8 @@
       "id": "tile_ground_grass_06",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_06.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_06.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -89,8 +89,8 @@
       "id": "tile_ground_grass_07",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_07.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_07.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -101,8 +101,8 @@
       "id": "tile_ground_grass_08",
       "group": "Tiles/Ground/Grass",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Ground/Grass/tile_ground_grass_08.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Grass/tile_ground_grass_08.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -113,8 +113,8 @@
       "id": "tile_ground_dirt_01",
       "group": "Tiles/Ground/Dirt",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Dirt/tile_ground_dirt_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Dirt/tile_ground_dirt_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -125,8 +125,8 @@
       "id": "tile_ground_dirt_02",
       "group": "Tiles/Ground/Dirt",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Dirt/tile_ground_dirt_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Dirt/tile_ground_dirt_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -137,8 +137,8 @@
       "id": "tile_ground_dirt_03",
       "group": "Tiles/Ground/Dirt",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Dirt/tile_ground_dirt_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Dirt/tile_ground_dirt_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -149,8 +149,8 @@
       "id": "tile_ground_dirt_04",
       "group": "Tiles/Ground/Dirt",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Dirt/tile_ground_dirt_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Dirt/tile_ground_dirt_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -161,8 +161,8 @@
       "id": "tile_ground_stone_01",
       "group": "Tiles/Ground/Stone",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Stone/tile_ground_stone_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Stone/tile_ground_stone_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -173,8 +173,8 @@
       "id": "tile_ground_stone_02",
       "group": "Tiles/Ground/Stone",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Stone/tile_ground_stone_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Stone/tile_ground_stone_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -185,8 +185,8 @@
       "id": "tile_ground_stone_03",
       "group": "Tiles/Ground/Stone",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Stone/tile_ground_stone_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Stone/tile_ground_stone_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -197,8 +197,8 @@
       "id": "tile_ground_stone_04",
       "group": "Tiles/Ground/Stone",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Ground/Stone/tile_ground_stone_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Ground/Stone/tile_ground_stone_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -209,8 +209,8 @@
       "id": "tile_autotile_grass_edge_001",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_001.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_001.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -221,8 +221,8 @@
       "id": "tile_autotile_grass_edge_002",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_002.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_002.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -233,8 +233,8 @@
       "id": "tile_autotile_grass_edge_003",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_003.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_003.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -245,8 +245,8 @@
       "id": "tile_autotile_grass_edge_004",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_004.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_004.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -257,8 +257,8 @@
       "id": "tile_autotile_grass_edge_005",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_005.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_005.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -269,8 +269,8 @@
       "id": "tile_autotile_grass_edge_006",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_006.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_006.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -281,8 +281,8 @@
       "id": "tile_autotile_grass_edge_007",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_007.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_007.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -293,8 +293,8 @@
       "id": "tile_autotile_grass_edge_008",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_008.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_008.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -305,8 +305,8 @@
       "id": "tile_autotile_grass_edge_009",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_009.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_009.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -317,8 +317,8 @@
       "id": "tile_autotile_grass_edge_010",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_010.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_010.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -329,8 +329,8 @@
       "id": "tile_autotile_grass_edge_011",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_011.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_011.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -341,8 +341,8 @@
       "id": "tile_autotile_grass_edge_012",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_012.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_012.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -353,8 +353,8 @@
       "id": "tile_autotile_grass_edge_013",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_013.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_013.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -365,8 +365,8 @@
       "id": "tile_autotile_grass_edge_014",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_014.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_014.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -377,8 +377,8 @@
       "id": "tile_autotile_grass_edge_015",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_015.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_015.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -389,8 +389,8 @@
       "id": "tile_autotile_grass_edge_016",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_016.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_016.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -401,8 +401,8 @@
       "id": "tile_autotile_grass_edge_017",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_017.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_017.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -413,8 +413,8 @@
       "id": "tile_autotile_grass_edge_018",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_018.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_018.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -425,8 +425,8 @@
       "id": "tile_autotile_grass_edge_019",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_019.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_019.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -437,8 +437,8 @@
       "id": "tile_autotile_grass_edge_020",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_020.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_020.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -449,8 +449,8 @@
       "id": "tile_autotile_grass_edge_021",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_021.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_021.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -461,8 +461,8 @@
       "id": "tile_autotile_grass_edge_022",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_022.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_022.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -473,8 +473,8 @@
       "id": "tile_autotile_grass_edge_023",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_023.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_023.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -485,8 +485,8 @@
       "id": "tile_autotile_grass_edge_024",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_024.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_024.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -497,8 +497,8 @@
       "id": "tile_autotile_grass_edge_025",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_025.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_025.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -509,8 +509,8 @@
       "id": "tile_autotile_grass_edge_026",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_026.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_026.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -521,8 +521,8 @@
       "id": "tile_autotile_grass_edge_027",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_027.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_027.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -533,8 +533,8 @@
       "id": "tile_autotile_grass_edge_028",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_028.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_028.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -545,8 +545,8 @@
       "id": "tile_autotile_grass_edge_029",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_029.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_029.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -557,8 +557,8 @@
       "id": "tile_autotile_grass_edge_030",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_030.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_030.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -569,8 +569,8 @@
       "id": "tile_autotile_grass_edge_031",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_031.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_031.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -581,8 +581,8 @@
       "id": "tile_autotile_grass_edge_032",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_032.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_032.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -593,8 +593,8 @@
       "id": "tile_autotile_grass_edge_033",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_033.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_033.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -605,8 +605,8 @@
       "id": "tile_autotile_grass_edge_034",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_034.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_034.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -617,8 +617,8 @@
       "id": "tile_autotile_grass_edge_035",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_035.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_035.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -629,8 +629,8 @@
       "id": "tile_autotile_grass_edge_036",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_036.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_036.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -641,8 +641,8 @@
       "id": "tile_autotile_grass_edge_037",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_037.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_037.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -653,8 +653,8 @@
       "id": "tile_autotile_grass_edge_038",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_038.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_038.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -665,8 +665,8 @@
       "id": "tile_autotile_grass_edge_039",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_039.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_039.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -677,8 +677,8 @@
       "id": "tile_autotile_grass_edge_040",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_040.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_040.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -689,8 +689,8 @@
       "id": "tile_autotile_grass_edge_041",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_041.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_041.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -701,8 +701,8 @@
       "id": "tile_autotile_grass_edge_042",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_042.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_042.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -713,8 +713,8 @@
       "id": "tile_autotile_grass_edge_043",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_043.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_043.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -725,8 +725,8 @@
       "id": "tile_autotile_grass_edge_044",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_044.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_044.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -737,8 +737,8 @@
       "id": "tile_autotile_grass_edge_045",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_045.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_045.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -749,8 +749,8 @@
       "id": "tile_autotile_grass_edge_046",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_046.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_046.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -761,8 +761,8 @@
       "id": "tile_autotile_grass_edge_047",
       "group": "Tiles/Autotile/GrassEdge",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_047.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Autotile/GrassEdge/tile_autotile_grass_edge_047.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -773,8 +773,8 @@
       "id": "tile_cliff_front_ne_01",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_front_ne_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_front_ne_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -785,8 +785,8 @@
       "id": "tile_cliff_front_ne_02",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_front_ne_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_front_ne_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -797,8 +797,8 @@
       "id": "tile_cliff_front_nw_01",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_front_nw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_front_nw_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -809,8 +809,8 @@
       "id": "tile_cliff_front_nw_02",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_front_nw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_front_nw_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -821,8 +821,8 @@
       "id": "tile_cliff_back_se_01",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_back_se_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_back_se_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -833,8 +833,8 @@
       "id": "tile_cliff_back_se_02",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_back_se_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_back_se_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -845,8 +845,8 @@
       "id": "tile_cliff_back_sw_01",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_back_sw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_back_sw_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -857,8 +857,8 @@
       "id": "tile_cliff_back_sw_02",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_back_sw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_back_sw_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -869,8 +869,8 @@
       "id": "tile_cliff_outer_ne",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_outer_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_outer_ne.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -881,8 +881,8 @@
       "id": "tile_cliff_outer_se",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_outer_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_outer_se.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -893,8 +893,8 @@
       "id": "tile_cliff_outer_sw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_outer_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_outer_sw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -905,8 +905,8 @@
       "id": "tile_cliff_outer_nw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_outer_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_outer_nw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -917,8 +917,8 @@
       "id": "tile_cliff_inner_ne",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_inner_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_inner_ne.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -929,8 +929,8 @@
       "id": "tile_cliff_inner_se",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_inner_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_inner_se.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -941,8 +941,8 @@
       "id": "tile_cliff_inner_sw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_inner_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_inner_sw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -953,8 +953,8 @@
       "id": "tile_cliff_inner_nw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_inner_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_inner_nw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -965,8 +965,8 @@
       "id": "tile_cliff_cap_ne",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_cap_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_cap_ne.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -977,8 +977,8 @@
       "id": "tile_cliff_cap_se",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_cap_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_cap_se.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -989,8 +989,8 @@
       "id": "tile_cliff_cap_sw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_cap_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_cap_sw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1001,8 +1001,8 @@
       "id": "tile_cliff_cap_nw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_cap_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_cap_nw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1013,8 +1013,8 @@
       "id": "tile_cliff_join_ne",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_join_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_join_ne.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1025,8 +1025,8 @@
       "id": "tile_cliff_join_se",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_join_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_join_se.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1037,8 +1037,8 @@
       "id": "tile_cliff_join_sw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_join_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_join_sw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1049,8 +1049,8 @@
       "id": "tile_cliff_join_nw",
       "group": "Tiles/Height/Cliff",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Cliff/tile_cliff_join_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Cliff/tile_cliff_join_nw.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1061,8 +1061,8 @@
       "id": "tile_ramp_ne_01",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_ne_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_ne_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1073,8 +1073,8 @@
       "id": "tile_ramp_ne_02",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_ne_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_ne_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1085,8 +1085,8 @@
       "id": "tile_ramp_se_01",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_se_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_se_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1097,8 +1097,8 @@
       "id": "tile_ramp_se_02",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_se_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_se_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1109,8 +1109,8 @@
       "id": "tile_ramp_sw_01",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_sw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_sw_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1121,8 +1121,8 @@
       "id": "tile_ramp_sw_02",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_sw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_sw_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1133,8 +1133,8 @@
       "id": "tile_ramp_nw_01",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_nw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_nw_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1145,8 +1145,8 @@
       "id": "tile_ramp_nw_02",
       "group": "Tiles/Height/Ramp",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Height/Ramp/tile_ramp_nw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Height/Ramp/tile_ramp_nw_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1157,8 +1157,8 @@
       "id": "tile_river_straight_ne_sw_01",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_straight_ne_sw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_straight_ne_sw_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1169,8 +1169,8 @@
       "id": "tile_river_straight_ne_sw_02",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_straight_ne_sw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_straight_ne_sw_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1181,8 +1181,8 @@
       "id": "tile_river_straight_nw_se_01",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_straight_nw_se_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_straight_nw_se_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1193,8 +1193,8 @@
       "id": "tile_river_straight_nw_se_02",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_straight_nw_se_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_straight_nw_se_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1205,8 +1205,8 @@
       "id": "tile_river_curve_ne",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_curve_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_curve_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1217,8 +1217,8 @@
       "id": "tile_river_curve_se",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_curve_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_curve_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1229,8 +1229,8 @@
       "id": "tile_river_curve_sw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_curve_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_curve_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1241,8 +1241,8 @@
       "id": "tile_river_curve_nw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_curve_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_curve_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1253,8 +1253,8 @@
       "id": "tile_river_source_ne",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_source_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_source_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1265,8 +1265,8 @@
       "id": "tile_river_source_se",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_source_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_source_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1277,8 +1277,8 @@
       "id": "tile_river_source_sw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_source_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_source_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1289,8 +1289,8 @@
       "id": "tile_river_source_nw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_source_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_source_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1301,8 +1301,8 @@
       "id": "tile_river_t_ne",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_t_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_t_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1313,8 +1313,8 @@
       "id": "tile_river_t_se",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_t_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_t_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1325,8 +1325,8 @@
       "id": "tile_river_t_sw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_t_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_t_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1337,8 +1337,8 @@
       "id": "tile_river_t_nw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_t_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_t_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1349,8 +1349,8 @@
       "id": "tile_river_interface_ne",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_interface_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_interface_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1361,8 +1361,8 @@
       "id": "tile_river_interface_se",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_interface_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_interface_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1373,8 +1373,8 @@
       "id": "tile_river_interface_sw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_interface_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_interface_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1385,8 +1385,8 @@
       "id": "tile_river_interface_nw",
       "group": "Tiles/Water/River",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/River/tile_river_interface_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/River/tile_river_interface_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1397,8 +1397,8 @@
       "id": "tile_lake_edge_ne",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_edge_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_edge_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1409,8 +1409,8 @@
       "id": "tile_lake_edge_se",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_edge_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_edge_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1421,8 +1421,8 @@
       "id": "tile_lake_edge_sw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_edge_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_edge_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1433,8 +1433,8 @@
       "id": "tile_lake_edge_nw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_edge_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_edge_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1445,8 +1445,8 @@
       "id": "tile_lake_outer_ne",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_outer_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_outer_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1457,8 +1457,8 @@
       "id": "tile_lake_outer_se",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_outer_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_outer_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1469,8 +1469,8 @@
       "id": "tile_lake_outer_sw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_outer_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_outer_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1481,8 +1481,8 @@
       "id": "tile_lake_outer_nw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_outer_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_outer_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1493,8 +1493,8 @@
       "id": "tile_lake_inner_ne",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_inner_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_inner_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1505,8 +1505,8 @@
       "id": "tile_lake_inner_se",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_inner_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_inner_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1517,8 +1517,8 @@
       "id": "tile_lake_inner_sw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_inner_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_inner_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1529,8 +1529,8 @@
       "id": "tile_lake_inner_nw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_inner_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_inner_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1541,8 +1541,8 @@
       "id": "tile_lake_special_ne",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_special_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_special_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1553,8 +1553,8 @@
       "id": "tile_lake_special_se",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_special_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_special_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1565,8 +1565,8 @@
       "id": "tile_lake_special_sw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_special_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_special_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1577,8 +1577,8 @@
       "id": "tile_lake_special_nw",
       "group": "Tiles/Water/Lake",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Water/Lake/tile_lake_special_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Lake/tile_lake_special_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1589,8 +1589,8 @@
       "id": "tile_waterfall_front_ne_01",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_front_ne_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_front_ne_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1601,8 +1601,8 @@
       "id": "tile_waterfall_front_ne_02",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_front_ne_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_front_ne_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1613,8 +1613,8 @@
       "id": "tile_waterfall_front_nw_01",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_front_nw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_front_nw_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1625,8 +1625,8 @@
       "id": "tile_waterfall_front_nw_02",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_front_nw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_front_nw_02.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1637,8 +1637,8 @@
       "id": "tile_waterfall_side_ne_01",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_side_ne_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_side_ne_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1649,8 +1649,8 @@
       "id": "tile_waterfall_side_nw_01",
       "group": "Tiles/Water/Waterfall",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Water/Waterfall/tile_waterfall_side_nw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Water/Waterfall/tile_waterfall_side_nw_01.png",
+      "format": "png",
       "size": [
         256,
         220
@@ -1661,8 +1661,8 @@
       "id": "tile_road_dirt_straight_ne_sw_01",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_straight_ne_sw_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_straight_ne_sw_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1673,8 +1673,8 @@
       "id": "tile_road_dirt_straight_ne_sw_02",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_straight_ne_sw_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_straight_ne_sw_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1685,8 +1685,8 @@
       "id": "tile_road_dirt_straight_nw_se_01",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_straight_nw_se_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_straight_nw_se_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1697,8 +1697,8 @@
       "id": "tile_road_dirt_straight_nw_se_02",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_straight_nw_se_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_straight_nw_se_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1709,8 +1709,8 @@
       "id": "tile_road_dirt_curve_ne",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_curve_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_curve_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1721,8 +1721,8 @@
       "id": "tile_road_dirt_curve_se",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_curve_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_curve_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1733,8 +1733,8 @@
       "id": "tile_road_dirt_curve_sw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_curve_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_curve_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1745,8 +1745,8 @@
       "id": "tile_road_dirt_curve_nw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_curve_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_curve_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1757,8 +1757,8 @@
       "id": "tile_road_dirt_cap_ne",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_cap_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_cap_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1769,8 +1769,8 @@
       "id": "tile_road_dirt_cap_se",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_cap_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_cap_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1781,8 +1781,8 @@
       "id": "tile_road_dirt_cap_sw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_cap_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_cap_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1793,8 +1793,8 @@
       "id": "tile_road_dirt_cap_nw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_cap_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_cap_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1805,8 +1805,8 @@
       "id": "tile_road_dirt_junction_ne",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_junction_ne.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_junction_ne.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1817,8 +1817,8 @@
       "id": "tile_road_dirt_junction_se",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_junction_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_junction_se.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1829,8 +1829,8 @@
       "id": "tile_road_dirt_junction_sw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_junction_sw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_junction_sw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1841,8 +1841,8 @@
       "id": "tile_road_dirt_junction_nw",
       "group": "Tiles/Path/DirtRoad",
       "priority": "P0",
-      "path": "/Art/Map/Tiles/Path/DirtRoad/tile_road_dirt_junction_nw.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Path/DirtRoad/tile_road_dirt_junction_nw.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1853,8 +1853,8 @@
       "id": "decal_ground_grass_tuft_01",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1865,8 +1865,8 @@
       "id": "decal_ground_grass_tuft_02",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1877,8 +1877,8 @@
       "id": "decal_ground_grass_tuft_03",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1889,8 +1889,8 @@
       "id": "decal_ground_grass_tuft_04",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1901,8 +1901,8 @@
       "id": "decal_ground_grass_tuft_05",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_05.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_05.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1913,8 +1913,8 @@
       "id": "decal_ground_grass_tuft_06",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_06.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_grass_tuft_06.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1925,8 +1925,8 @@
       "id": "decal_ground_flower_01",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_flower_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_flower_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1937,8 +1937,8 @@
       "id": "decal_ground_flower_02",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_flower_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_flower_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1949,8 +1949,8 @@
       "id": "decal_ground_flower_03",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_flower_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_flower_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1961,8 +1961,8 @@
       "id": "decal_ground_flower_04",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_flower_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_flower_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1973,8 +1973,8 @@
       "id": "decal_ground_pebble_01",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_pebble_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_pebble_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1985,8 +1985,8 @@
       "id": "decal_ground_pebble_02",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_pebble_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_pebble_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -1997,8 +1997,8 @@
       "id": "decal_ground_pebble_03",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_pebble_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_pebble_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2009,8 +2009,8 @@
       "id": "decal_ground_pebble_04",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_pebble_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_pebble_04.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2021,8 +2021,8 @@
       "id": "decal_ground_branch_01",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_branch_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_branch_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2033,8 +2033,8 @@
       "id": "decal_ground_branch_02",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_branch_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_branch_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2045,8 +2045,8 @@
       "id": "decal_ground_branch_03",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_branch_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_branch_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2057,8 +2057,8 @@
       "id": "decal_ground_leaf_01",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_leaf_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_leaf_01.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2069,8 +2069,8 @@
       "id": "decal_ground_leaf_02",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_leaf_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_leaf_02.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2081,8 +2081,8 @@
       "id": "decal_ground_leaf_03",
       "group": "Tiles/Decal/GroundDetail",
       "priority": "P1",
-      "path": "/Art/Map/Tiles/Decal/GroundDetail/decal_ground_leaf_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Tiles/Decal/GroundDetail/decal_ground_leaf_03.png",
+      "format": "png",
       "size": [
         256,
         148
@@ -2093,8 +2093,8 @@
       "id": "obj_tree_broadleaf_01",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_broadleaf_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_broadleaf_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2105,8 +2105,8 @@
       "id": "obj_tree_broadleaf_02",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_broadleaf_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_broadleaf_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2117,8 +2117,8 @@
       "id": "obj_tree_broadleaf_03",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_broadleaf_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_broadleaf_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2129,8 +2129,8 @@
       "id": "obj_tree_broadleaf_04",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_broadleaf_04.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_broadleaf_04.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2141,8 +2141,8 @@
       "id": "obj_tree_pine_01",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_pine_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_pine_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2153,8 +2153,8 @@
       "id": "obj_tree_pine_02",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_pine_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_pine_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2165,8 +2165,8 @@
       "id": "obj_tree_pine_03",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_pine_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_pine_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2177,8 +2177,8 @@
       "id": "obj_tree_dead_01",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_dead_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_dead_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2189,8 +2189,8 @@
       "id": "obj_tree_dead_02",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_dead_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_dead_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2201,8 +2201,8 @@
       "id": "obj_tree_giant_01",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_giant_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_giant_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2213,8 +2213,8 @@
       "id": "obj_tree_giant_02",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_giant_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_giant_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2225,8 +2225,8 @@
       "id": "obj_tree_giant_03",
       "group": "Objects/Tree",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Tree/obj_tree_giant_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Tree/obj_tree_giant_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2237,8 +2237,8 @@
       "id": "obj_bush_shrub_01",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_shrub_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_shrub_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2249,8 +2249,8 @@
       "id": "obj_bush_shrub_02",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_shrub_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_shrub_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2261,8 +2261,8 @@
       "id": "obj_bush_shrub_03",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_shrub_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_shrub_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2273,8 +2273,8 @@
       "id": "obj_bush_fern_01",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_fern_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_fern_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2285,8 +2285,8 @@
       "id": "obj_bush_fern_02",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_fern_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_fern_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2297,8 +2297,8 @@
       "id": "obj_bush_fern_03",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_fern_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_fern_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2309,8 +2309,8 @@
       "id": "obj_bush_vine_01",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_vine_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_vine_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2321,8 +2321,8 @@
       "id": "obj_bush_vine_02",
       "group": "Objects/Bush",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Bush/obj_bush_vine_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Bush/obj_bush_vine_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2333,8 +2333,8 @@
       "id": "obj_rock_single_01",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_single_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_single_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2345,8 +2345,8 @@
       "id": "obj_rock_single_02",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_single_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_single_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2357,8 +2357,8 @@
       "id": "obj_rock_single_03",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_single_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_single_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2369,8 +2369,8 @@
       "id": "obj_rock_pile_01",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_pile_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_pile_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2381,8 +2381,8 @@
       "id": "obj_rock_pile_02",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_pile_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_pile_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2393,8 +2393,8 @@
       "id": "obj_rock_pile_03",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_pile_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_pile_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2405,8 +2405,8 @@
       "id": "obj_rock_moss_01",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_moss_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_moss_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2417,8 +2417,8 @@
       "id": "obj_rock_moss_02",
       "group": "Objects/Rock",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Rock/obj_rock_moss_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Rock/obj_rock_moss_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2429,8 +2429,8 @@
       "id": "obj_wood_stump_01",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_stump_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_stump_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2441,8 +2441,8 @@
       "id": "obj_wood_stump_02",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_stump_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_stump_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2453,8 +2453,8 @@
       "id": "obj_wood_log_01",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_log_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_log_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2465,8 +2465,8 @@
       "id": "obj_wood_log_02",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_log_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_log_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2477,8 +2477,8 @@
       "id": "obj_wood_branch_pile_01",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_branch_pile_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_branch_pile_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2489,8 +2489,8 @@
       "id": "obj_wood_branch_pile_02",
       "group": "Objects/Wood",
       "priority": "P1",
-      "path": "/Art/Map/Objects/Wood/obj_wood_branch_pile_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Wood/obj_wood_branch_pile_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2501,8 +2501,8 @@
       "id": "obj_jungle_prop_ruin_01",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_ruin_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_ruin_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2513,8 +2513,8 @@
       "id": "obj_jungle_prop_ruin_02",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_ruin_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_ruin_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2525,8 +2525,8 @@
       "id": "obj_jungle_prop_ruin_03",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_ruin_03.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_ruin_03.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2537,8 +2537,8 @@
       "id": "obj_jungle_prop_totem_01",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_totem_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_totem_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2549,8 +2549,8 @@
       "id": "obj_jungle_prop_totem_02",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_totem_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_totem_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2561,8 +2561,8 @@
       "id": "obj_jungle_prop_sign_01",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_sign_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_sign_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2573,8 +2573,8 @@
       "id": "obj_jungle_prop_sign_02",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_sign_02.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_sign_02.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2585,8 +2585,8 @@
       "id": "obj_jungle_prop_bones_01",
       "group": "Objects/JungleProp",
       "priority": "P1",
-      "path": "/Art/Map/Objects/JungleProp/obj_jungle_prop_bones_01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/JungleProp/obj_jungle_prop_bones_01.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2597,8 +2597,8 @@
       "id": "animal_deer_idle_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_deer_idle_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_deer_idle_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2609,8 +2609,8 @@
       "id": "animal_deer_walk_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_deer_walk_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_deer_walk_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2621,8 +2621,8 @@
       "id": "animal_boar_idle_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_boar_idle_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_boar_idle_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2633,8 +2633,8 @@
       "id": "animal_boar_walk_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_boar_walk_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_boar_walk_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2645,8 +2645,8 @@
       "id": "animal_rabbit_idle_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_rabbit_idle_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_rabbit_idle_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2657,8 +2657,8 @@
       "id": "animal_rabbit_walk_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_rabbit_walk_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_rabbit_walk_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2669,8 +2669,8 @@
       "id": "animal_bird_idle_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_bird_idle_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_bird_idle_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2681,8 +2681,8 @@
       "id": "animal_bird_fly_se",
       "group": "Objects/Animal",
       "priority": "P0",
-      "path": "/Art/Map/Objects/Animal/animal_bird_fly_se.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/Animal/animal_bird_fly_se.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2693,8 +2693,8 @@
       "id": "obj_resource_wood_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_wood_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_wood_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2705,8 +2705,8 @@
       "id": "obj_resource_stone_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_stone_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_stone_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2717,8 +2717,8 @@
       "id": "obj_resource_herb_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_herb_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_herb_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2729,8 +2729,8 @@
       "id": "obj_resource_game_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_game_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_game_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2741,8 +2741,8 @@
       "id": "obj_resource_clay_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_clay_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_clay_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2753,8 +2753,8 @@
       "id": "obj_resource_ore_normal",
       "group": "Objects/ResourceNode",
       "priority": "P0",
-      "path": "/Art/Map/Objects/ResourceNode/obj_resource_ore_normal.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Objects/ResourceNode/obj_resource_ore_normal.png",
+      "format": "png",
       "size": [
         256,
         296
@@ -2765,8 +2765,8 @@
       "id": "bld_trap_lv01",
       "group": "Buildings/Trap/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Trap/Source/bld_trap_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Trap/Source/bld_trap_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2777,8 +2777,8 @@
       "id": "bld_handcart_lv01",
       "group": "Buildings/Handcart/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Handcart/Source/bld_handcart_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Handcart/Source/bld_handcart_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2789,8 +2789,8 @@
       "id": "bld_hut_lv01",
       "group": "Buildings/Hut/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Hut/Source/bld_hut_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Hut/Source/bld_hut_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2801,8 +2801,8 @@
       "id": "bld_hunter_hut_lv01",
       "group": "Buildings/HunterHut/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/HunterHut/Source/bld_hunter_hut_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/HunterHut/Source/bld_hunter_hut_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2813,8 +2813,8 @@
       "id": "bld_trading_post_lv01",
       "group": "Buildings/TradingPost/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/TradingPost/Source/bld_trading_post_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/TradingPost/Source/bld_trading_post_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2825,8 +2825,8 @@
       "id": "bld_tannery_lv01",
       "group": "Buildings/Tannery/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Tannery/Source/bld_tannery_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Tannery/Source/bld_tannery_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2837,8 +2837,8 @@
       "id": "bld_smokehouse_lv01",
       "group": "Buildings/Smokehouse/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Smokehouse/Source/bld_smokehouse_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Smokehouse/Source/bld_smokehouse_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2849,8 +2849,8 @@
       "id": "bld_workshop_lv01",
       "group": "Buildings/Workshop/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Workshop/Source/bld_workshop_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Workshop/Source/bld_workshop_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2861,8 +2861,8 @@
       "id": "bld_steelworks_lv01",
       "group": "Buildings/Steelworks/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Steelworks/Source/bld_steelworks_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Steelworks/Source/bld_steelworks_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
@@ -2873,8 +2873,8 @@
       "id": "bld_armory_lv01",
       "group": "Buildings/Armory/Source",
       "priority": "P0",
-      "path": "/Art/Map/Buildings/Armory/Source/bld_armory_lv01.svg",
-      "format": "svg",
+      "path": "/Art/Map/PNG/Buildings/Armory/Source/bld_armory_lv01.png",
+      "format": "png",
       "size": [
         512,
         430
