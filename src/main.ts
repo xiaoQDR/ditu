@@ -65,13 +65,6 @@ function assetUrl(path: string): string {
   return import.meta.env.BASE_URL + path.replace(/^\/+/, '')
 }
 
-function pngPreviewPath(path: string): string {
-  const relativePath = path
-    .replace(/^\/Art\/Map\//, '')
-    .replace(/\.svg$/i, '.png')
-  return '/Art/Map/PNG/' + relativePath
-}
-
 function countFor(category: Category): number {
   if (!manifest) return 0
   if (category === 'all') return manifest.assets.length
@@ -131,7 +124,7 @@ function createAssetCard(item: AssetItem): HTMLAnchorElement {
   const priority = document.createElement('span')
 
   link.className = 'asset-card asset-card--' + categoryOf(item)
-  const previewPath = pngPreviewPath(item.path)
+  const previewPath = item.path
   link.href = assetUrl(previewPath)
   link.target = '_blank'
   link.rel = 'noreferrer'
