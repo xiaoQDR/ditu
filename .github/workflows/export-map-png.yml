@@ -1,4 +1,4 @@
-name: Export map SVG assets to PNG
+name: Redraw terrain and river PNG assets
 
 on:
   push:
@@ -10,27 +10,42 @@ permissions:
   contents: write
 
 jobs:
-  export:
+  redraw:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: assets/png-map-export
-      - name: Install SVG renderer
-        run: sudo apt-get update && sudo apt-get install -y inkscape
-      - name: Export PNG assets
+      - name: Install render tools
+        run: sudo apt-get update && sudo apt-get install -y inkscape imagemagick
+      - name: Redraw terrain and river PNGs in place
         shell: bash
         run: |
           set -euo pipefail
-          find public/Art/Map -type f -name '*.svg' -print0 |
-          while IFS= read -r -d '' svg; do
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          mapfile -d '' sources < <(
+            find public/Art/Map/Tiles -type f -name '*.svg' -print0 |
+              grep -zE '/(Autotile/GrassEdge|Ground/(Grass|Dirt|Stone)|Height/Cliff|Water/River)/'
+          )
+
+          for svg in "${sources[@]}"; do
             rel="${svg#public/Art/Map/}"
             out="public/Art/Map/PNG/${rel%.svg}.png"
             mkdir -p "$(dirname "$out")"
-            inkscape "$svg" --export-type=png --export-filename="$out"
+
+            inkscape "$svg" --export-type=png --export-filename="$tmp_dir/base.png" >/dev/null 2>&1
+            convert "$tmp_dir/base.png" -alpha extract "$tmp_dir/alpha.png"
+            convert "$tmp_dir/base.png" -colorspace sRGB -modulate 104,68,100 "$tmp_dir/color.png"
+            convert "$tmp_dir/base.png" -background white -alpha remove -alpha off               -colorspace gray -edge 0.75 -negate -threshold 72% "$tmp_dir/line.png"
+            convert "$tmp_dir/color.png" "$tmp_dir/line.png"               -compose Multiply -composite "$tmp_dir/alpha.png"               -alpha off -compose CopyOpacity -composite -strip "$out"
           done
-          test "$(find public/Art/Map/PNG -type f -name '*.png' | wc -l)" -eq "$(find public/Art/Map -type f -name '*.svg' | wc -l)"
-      - name: Commit PNG exports
+
+          expected="${#sources[@]}"
+          test "$expected" -eq 107
+          echo "Redrew $expected terrain and river PNG assets"
+      - name: Commit redrawn PNGs
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -39,5 +54,5 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "assets: export map SVGs as PNG"
+          git commit -m "assets: redraw terrain and river PNGs in sketch style"
           git push origin HEAD:assets/png-map-export
