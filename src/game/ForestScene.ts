@@ -40,17 +40,17 @@ export class ForestScene extends Phaser.Scene {
   constructor() { super('forest') }
 
   preload() {
-    const root = `${import.meta.env.BASE_URL}Art/Map`
-    for (let i = 1; i <= 8; i += 1) this.load.svg(`ground_grass_${i}`, `${root}/Tiles/Ground/Grass/tile_ground_grass_${String(i).padStart(2, '0')}.svg`)
-    for (let i = 1; i <= 4; i += 1) this.load.svg(`ground_dirt_${i}`, `${root}/Tiles/Ground/Dirt/tile_ground_dirt_${String(i).padStart(2, '0')}.svg`)
-    for (const dir of ['ne', 'se', 'sw', 'nw']) this.load.svg(`lake_edge_${dir}`, `${root}/Tiles/Water/Lake/tile_lake_edge_${dir}.svg`)
-    this.load.svg('cliff_outer_ne', `${root}/Tiles/Height/Cliff/tile_cliff_outer_ne.svg`)
-    for (let i = 1; i <= 4; i += 1) this.load.svg(`tree_${i}`, `${root}/Objects/Tree/obj_tree_broadleaf_${String(i).padStart(2, '0')}.svg`)
-    for (let i = 1; i <= 3; i += 1) this.load.svg(`pine_${i}`, `${root}/Objects/Tree/obj_tree_pine_${String(i).padStart(2, '0')}.svg`)
-    for (let i = 1; i <= 3; i += 1) this.load.svg(`rock_${i}`, `${root}/Objects/Rock/obj_rock_single_${String(i).padStart(2, '0')}.svg`)
-    for (let i = 1; i <= 3; i += 1) this.load.svg(`bush_${i}`, `${root}/Objects/Bush/obj_bush_shrub_${String(i).padStart(2, '0')}.svg`)
+    const root = `${import.meta.env.BASE_URL}Art/Map/PNG`
+    for (let i = 1; i <= 8; i += 1) this.load.image(`ground_grass_${i}`, `${root}/Tiles/Ground/Grass/tile_ground_grass_${String(i).padStart(2, '0')}.png`)
+    for (let i = 1; i <= 4; i += 1) this.load.image(`ground_dirt_${i}`, `${root}/Tiles/Ground/Dirt/tile_ground_dirt_${String(i).padStart(2, '0')}.png`)
+    for (const dir of ['ne', 'se', 'sw', 'nw']) this.load.image(`lake_edge_${dir}`, `${root}/Tiles/Water/Lake/tile_lake_edge_${dir}.png`)
+    this.load.image('cliff_outer_ne', `${root}/Tiles/Height/Cliff/tile_cliff_outer_ne.png`)
+    for (let i = 1; i <= 4; i += 1) this.load.image(`tree_${i}`, `${root}/Objects/Tree/obj_tree_broadleaf_${String(i).padStart(2, '0')}.png`)
+    for (let i = 1; i <= 3; i += 1) this.load.image(`pine_${i}`, `${root}/Objects/Tree/obj_tree_pine_${String(i).padStart(2, '0')}.png`)
+    for (let i = 1; i <= 3; i += 1) this.load.image(`rock_${i}`, `${root}/Objects/Rock/obj_rock_single_${String(i).padStart(2, '0')}.png`)
+    for (let i = 1; i <= 3; i += 1) this.load.image(`bush_${i}`, `${root}/Objects/Bush/obj_bush_shrub_${String(i).padStart(2, '0')}.png`)
     const folders: Record<string, string> = { trap: 'Trap', handcart: 'Handcart', hut: 'Hut', hunter_hut: 'HunterHut', trading_post: 'TradingPost', tannery: 'Tannery', smokehouse: 'Smokehouse', workshop: 'Workshop', steelworks: 'Steelworks', armory: 'Armory' }
-    for (const building of BUILDINGS) this.load.svg(`building_${building.id}`, `${root}/Buildings/${folders[building.id]}/Source/bld_${building.id}_lv01.svg`)
+    for (const building of BUILDINGS) this.load.image(`building_${building.id}`, `${root}/Buildings/${folders[building.id]}/Source/bld_${building.id}_lv01.png`)
   }
 
   create() {
