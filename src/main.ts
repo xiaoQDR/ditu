@@ -65,6 +65,13 @@ function assetUrl(path: string): string {
   return import.meta.env.BASE_URL + path.replace(/^\/+/, '')
 }
 
+function pngPreviewPath(path: string): string {
+  const relativePath = path
+    .replace(/^\/Art\/Map\//, '')
+    .replace(/\.svg$/i, '.png')
+  return '/Art/Map/PNG/' + relativePath
+}
+
 function countFor(category: Category): number {
   if (!manifest) return 0
   if (category === 'all') return manifest.assets.length
@@ -124,13 +131,14 @@ function createAssetCard(item: AssetItem): HTMLAnchorElement {
   const priority = document.createElement('span')
 
   link.className = 'asset-card asset-card--' + categoryOf(item)
-  link.href = assetUrl(item.path)
+  const previewPath = pngPreviewPath(item.path)
+  link.href = assetUrl(previewPath)
   link.target = '_blank'
   link.rel = 'noreferrer'
-  link.title = '打开原始 SVG：' + item.path
+  link.title = '打开 PNG：' + previewPath
 
   preview.className = 'asset-card__preview'
-  image.src = assetUrl(item.path)
+  image.src = assetUrl(previewPath)
   image.alt = item.id
   image.loading = 'lazy'
   image.decoding = 'async'
@@ -138,7 +146,7 @@ function createAssetCard(item: AssetItem): HTMLAnchorElement {
 
   info.className = 'asset-card__info'
   title.textContent = item.id
-  path.textContent = item.path.replace('/Art/Map/', '')
+  path.textContent = previewPath.replace('/Art/Map/PNG/', '')
   meta.className = 'asset-card__meta'
   size.textContent = item.size[0] + ' × ' + item.size[1]
   priority.textContent = item.priority
