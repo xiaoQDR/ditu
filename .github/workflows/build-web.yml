@@ -26,7 +26,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run assets:manifest
+      - run: npm run assets:generate
+      - run: npm run assets:validate
       - run: npm run build
       - uses: actions/upload-artifact@v4
         with:

@@ -10,7 +10,8 @@
 - 10 类建筑菜单，1×1 逻辑占地、建造消耗、碰撞校验。
 - 点击建造、桌面拖放、清理资源、查看格子、视图缩放。
 - 手机与桌面自适应 UI。
-- 239 项资源槽清单与 47 张自动连接瓦片配置表模板。
+- 239 个静态 SVG 成品：173 张地形、56 个场景物件、10 个建筑。
+- 47 张自动连接瓦片与完整有效邻接掩码配置表。
 - GitHub Actions 自动构建并上传 `dist` Web 包。
 
 ## 本地运行
@@ -30,10 +31,11 @@ npm run build
 
 ## 美术资源
 
-运行下列命令可依据文档重新生成 239 项资源槽清单和 47 槽位 CSV：
+运行下列命令可依据文档重新生成并校验全部静态 SVG：
 
 ```bash
-npm run assets:manifest
+npm run assets:generate
+npm run assets:validate
 ```
 
-清单输出到 `public/Art/Map/`。当前原型使用 Phaser 矢量图形验证地图结构与交互；正式 SVG/PNG 可按 `asset_manifest.json` 逐项替换。
+资源输出到 `public/Art/Map/`，目录、命名、尺寸与数量由 `asset_manifest.json` 统一记录。Phaser 运行时直接加载 SVG，主体地图美术不再由 `Graphics` 动态绘制。

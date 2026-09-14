@@ -18,7 +18,7 @@ interface Cell {
   terrain: Terrain
   elevation: number
   occupied: boolean
-  tile: Phaser.GameObjects.Graphics
+  tile: Phaser.GameObjects.Image
 }
 
 interface ForestObject {
@@ -39,12 +39,25 @@ export class ForestScene extends Phaser.Scene {
 
   constructor() { super('forest') }
 
+  preload() {
+    const root = `${import.meta.env.BASE_URL}Art/Map`
+    for (let i = 1; i <= 8; i += 1) this.load.svg(`ground_grass_${i}`, `${root}/Tiles/Ground/Grass/tile_ground_grass_${String(i).padStart(2, '0')}.svg`)
+    for (let i = 1; i <= 4; i += 1) this.load.svg(`ground_dirt_${i}`, `${root}/Tiles/Ground/Dirt/tile_ground_dirt_${String(i).padStart(2, '0')}.svg`)
+    for (const dir of ['ne', 'se', 'sw', 'nw']) this.load.svg(`lake_edge_${dir}`, `${root}/Tiles/Water/Lake/tile_lake_edge_${dir}.svg`)
+    this.load.svg('cliff_outer_ne', `${root}/Tiles/Height/Cliff/tile_cliff_outer_ne.svg`)
+    for (let i = 1; i <= 4; i += 1) this.load.svg(`tree_${i}`, `${root}/Objects/Tree/obj_tree_broadleaf_${String(i).padStart(2, '0')}.svg`)
+    for (let i = 1; i <= 3; i += 1) this.load.svg(`pine_${i}`, `${root}/Objects/Tree/obj_tree_pine_${String(i).padStart(2, '0')}.svg`)
+    for (let i = 1; i <= 3; i += 1) this.load.svg(`rock_${i}`, `${root}/Objects/Rock/obj_rock_single_${String(i).padStart(2, '0')}.svg`)
+    for (let i = 1; i <= 3; i += 1) this.load.svg(`bush_${i}`, `${root}/Objects/Bush/obj_bush_shrub_${String(i).padStart(2, '0')}.svg`)
+    const folders: Record<string, string> = { trap: 'Trap', handcart: 'Handcart', hut: 'Hut', hunter_hut: 'HunterHut', trading_post: 'TradingPost', tannery: 'Tannery', smokehouse: 'Smokehouse', workshop: 'Workshop', steelworks: 'Steelworks', armory: 'Armory' }
+    for (const building of BUILDINGS) this.load.svg(`building_${building.id}`, `${root}/Buildings/${folders[building.id]}/Source/bld_${building.id}_lv01.svg`)
+  }
+
   create() {
     this.cameras.main.setBackgroundColor('#173a31')
     this.drawBackdrop()
     this.createTerrain()
     this.createEnvironment()
-    this.createCamp()
     this.createHoverMarker()
     this.bindInput()
     events.on('select-building', this.selectBuilding, this)
@@ -77,25 +90,15 @@ export class ForestScene extends Phaser.Scene {
         const terrain = this.terrainAt(col, row)
         const elevation = terrain === 'highland' ? 1 : 0
         const { x, y } = this.iso(col, row, elevation)
-        const tile = this.add.graphics().setPosition(x, y).setDepth(y - 100)
-        const color = terrain === 'water' ? 0x397d83 : terrain === 'dirt' ? 0x9a8051 : terrain === 'highland' ? 0x6f9b5f : ((col + row) % 2 ? 0x78a968 : 0x82b371)
-        if (elevation) this.drawCliff(tile)
-        tile.fillStyle(color).lineStyle(1, terrain === 'water' ? 0x69a4a0 : 0x91bd78, .28)
-        tile.beginPath().moveTo(0, -TILE_HEIGHT / 2).lineTo(TILE_WIDTH / 2, 0).lineTo(0, TILE_HEIGHT / 2).lineTo(-TILE_WIDTH / 2, 0).closePath().fillPath().strokePath()
-        if (terrain === 'water') {
-          tile.lineStyle(2, 0x8abbb2, .28).beginPath().moveTo(-24, 2).lineTo(-5, 8).lineTo(19, 2).strokePath()
-        }
+        const direction = ['ne', 'se', 'sw', 'nw'][(col + row) % 4]
+        const texture = terrain === 'water' ? `lake_edge_${direction}` : terrain === 'dirt' ? `ground_dirt_${(col + row) % 4 + 1}` : terrain === 'highland' ? 'cliff_outer_ne' : `ground_grass_${(col * 3 + row * 5) % 8 + 1}`
+        const tile = this.add.image(x, y, texture).setDepth(y - 100)
+        if (terrain === 'highland') tile.setOrigin(.5, 74 / 220).setDisplaySize(TILE_WIDTH, 96)
+        else tile.setDisplaySize(TILE_WIDTH, TILE_HEIGHT)
         line.push({ col, row, terrain, elevation, occupied: terrain === 'water', tile })
       }
       this.cells.push(line)
     }
-  }
-
-  private drawCliff(g: Phaser.GameObjects.Graphics) {
-    g.fillStyle(0x526f48)
-    g.beginPath().moveTo(-TILE_WIDTH / 2, 0).lineTo(0, TILE_HEIGHT / 2).lineTo(0, TILE_HEIGHT / 2 + ELEVATION_HEIGHT).lineTo(-TILE_WIDTH / 2, ELEVATION_HEIGHT).closePath().fillPath()
-    g.fillStyle(0x49633f)
-    g.beginPath().moveTo(TILE_WIDTH / 2, 0).lineTo(0, TILE_HEIGHT / 2).lineTo(0, TILE_HEIGHT / 2 + ELEVATION_HEIGHT).lineTo(TILE_WIDTH / 2, ELEVATION_HEIGHT).closePath().fillPath()
   }
 
   private createEnvironment() {
@@ -123,48 +126,23 @@ export class ForestScene extends Phaser.Scene {
   private makeTree(col: number, row: number, seed: number) {
     const { x, y } = this.iso(col, row, this.cells[row][col].elevation)
     const c = this.add.container(x, y).setDepth(y + 20)
-    const shadow = this.add.ellipse(0, 7, 62, 22, 0x193c31, .28)
-    const trunk = this.add.rectangle(0, -21, 13, 47, 0x72533a)
-    const crown = this.add.graphics()
-    const shade = seed % 3
-    const dark = [0x315f43, 0x376d49, 0x2f6448][shade]
-    const light = [0x568457, 0x5d915e, 0x4f865b][shade]
-    crown.fillStyle(dark).fillCircle(-13, -64, 30).fillCircle(17, -61, 32).fillCircle(2, -85, 34)
-    crown.fillStyle(light).fillCircle(-10, -80, 22).fillCircle(13, -91, 21)
-    return c.add([shadow, trunk, crown])
+    const key = seed % 5 === 0 ? `pine_${seed % 3 + 1}` : `tree_${seed % 4 + 1}`
+    const image = this.add.image(0, 0, key).setOrigin(.5, 270 / 296).setDisplaySize(104, 120)
+    return c.add(image)
   }
 
   private makeRock(col: number, row: number) {
     const { x, y } = this.iso(col, row, this.cells[row][col].elevation)
     const c = this.add.container(x, y).setDepth(y + 10)
-    const g = this.add.graphics()
-    g.fillStyle(0x526b63, .28).fillEllipse(0, 5, 54, 18)
-    g.fillStyle(0x68786c).beginPath().moveTo(-23, 1).lineTo(-13, -28).lineTo(13, -35).lineTo(27, -4).lineTo(15, 8).lineTo(-14, 9).closePath().fillPath()
-    g.fillStyle(0x879282).beginPath().moveTo(-13,-28).lineTo(13,-35).lineTo(5,-17).lineTo(-16,-12).closePath().fillPath()
-    return c.add(g)
+    const image = this.add.image(0, 0, `rock_${(col + row) % 3 + 1}`).setOrigin(.5, 270 / 296).setDisplaySize(82, 95)
+    return c.add(image)
   }
 
   private makeBush(col: number, row: number) {
     const { x, y } = this.iso(col, row, this.cells[row][col].elevation)
     const c = this.add.container(x, y).setDepth(y + 10)
-    const g = this.add.graphics()
-    g.fillStyle(0x2d6041, .28).fillEllipse(0, 5, 58, 18)
-    g.fillStyle(0x417b4d).fillCircle(-16, -11, 18).fillCircle(6, -19, 23).fillCircle(23, -8, 16)
-    g.fillStyle(0x689b5c).fillCircle(3, -28, 12).fillCircle(-13, -20, 10)
-    return c.add(g)
-  }
-
-  private createCamp() {
-    this.cells[5][5].occupied = true
-    const { x, y } = this.iso(5, 5, 0)
-    const c = this.add.container(x, y).setDepth(y + 12)
-    const g = this.add.graphics()
-    g.fillStyle(0x263f35, .32).fillEllipse(0, 7, 72, 24)
-    g.lineStyle(7, 0x6d4730).lineBetween(-25, 2, 25, -13).lineBetween(-22, -14, 22, 3)
-    g.fillStyle(0xe06c3d).fillTriangle(-12, -7, 12, -7, 0, -47)
-    g.fillStyle(0xf2b14d).fillTriangle(-7, -8, 7, -8, 1, -32)
-    c.add(g)
-    this.add.text(x, y + 20, '营地', { fontFamily: 'Microsoft YaHei, sans-serif', fontSize: '11px', color: '#f7e5b6', backgroundColor: '#28483d', padding: { x: 7, y: 3 } }).setOrigin(.5, 0).setDepth(y + 50)
+    const image = this.add.image(0, 0, `bush_${(col + row) % 3 + 1}`).setOrigin(.5, 270 / 296).setDisplaySize(78, 90)
+    return c.add(image)
   }
 
   private createHoverMarker() {
@@ -256,28 +234,8 @@ export class ForestScene extends Phaser.Scene {
   private makeBuilding(cell: Cell, def: BuildingDefinition) {
     const { x, y } = this.iso(cell.col, cell.row, cell.elevation)
     const c = this.add.container(x, y - 8).setDepth(y + 18).setScale(.2).setAlpha(.2)
-    const g = this.add.graphics()
-    g.fillStyle(0x1d3c33, .3).fillEllipse(0, 14, 84, 28)
-    if (def.id === 'trap') {
-      g.lineStyle(5, 0x8b603c).strokeEllipse(0, -4, 62, 28)
-      for (let i = -2; i <= 2; i += 1) g.lineBetween(i * 11, -18, i * 8, 9)
-    } else if (def.id === 'handcart') {
-      g.fillStyle(def.color).fillRect(-32, -30, 58, 28)
-      g.fillStyle(0x4a3a2d).fillCircle(-20, 3, 13).fillCircle(21, 3, 13)
-      g.lineStyle(6, 0x6b4a31).lineBetween(25, -19, 49, -31)
-    } else {
-      g.fillStyle(0x9a724b).fillRect(-34, -54, 68, 62)
-      g.fillStyle(def.color).beginPath().moveTo(-48,-49).lineTo(0,-92).lineTo(49,-49).lineTo(31,-35).lineTo(0,-66).lineTo(-32,-35).closePath().fillPath()
-      g.fillStyle(0x4b392c).fillRect(-10, -27, 20, 35)
-      g.fillStyle(0xe8c878).fillRect(17, -40, 13, 15)
-      if (['smokehouse','steelworks','workshop'].includes(def.id)) {
-        g.fillStyle(0x625d52).fillRect(20, -80, 13, 39)
-        const smoke = this.add.circle(27, -93, 8, 0xd8d0b5, .55)
-        c.add(smoke)
-        this.tweens.add({ targets: smoke, y: -125, alpha: 0, scale: 1.7, duration: 1800, repeat: -1 })
-      }
-    }
-    c.add(g)
+    const image = this.add.image(0, 0, `building_${def.id}`).setOrigin(.5, 370 / 430).setDisplaySize(158, 133)
+    c.add(image)
     c.add(this.add.text(0, 21, def.name, { fontFamily: 'Microsoft YaHei, sans-serif', fontSize: '11px', color: '#fff3cf', backgroundColor: '#26483c', padding: { x: 7, y: 3 } }).setOrigin(.5, 0))
     this.tweens.add({ targets: c, scale: 1, alpha: 1, duration: 380, ease: 'Back.easeOut' })
   }
